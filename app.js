@@ -35,13 +35,13 @@ class Publicacion {
 
 class Libro extends Publicacion {
   calcularMulta(diasAtraso) {
-    return diasAtraso * 50;
+    return diasAtraso * 500;
   }
 }
 
 class Revista extends Publicacion {
   calcularMulta(diasAtraso) {
-    return diasAtraso * 30;
+    return diasAtraso * 300;
   }
 }
 
