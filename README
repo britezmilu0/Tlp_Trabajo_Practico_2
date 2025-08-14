@@ -1,0 +1,27 @@
+# Gestor de Biblioteca en JavaScript
+
+Este es un proyecto sencillo y didáctico que implementa un **Gestor de Biblioteca** en **JavaScript** aplicando los principios de la **Programación Orientada a Objetos (POO)**. El código está diseñado para ser fácil de entender y demuestra los conceptos de **encapsulamiento**, **herencia** y **polimorfismo**.
+
+## Características
+
+**Clase base `Material`**: Representa cualquier material que pueda estar en una biblioteca, como libros o revistas.
+**Clases hijas `Libro` y `Revista`**: Estas clases heredan de `Material` y sobrescriben el método `mostrarInfo()` para mostrar información específica.
+**Clase `Biblioteca`**: Encargada de gestionar y almacenar la colección de materiales.
+**Encapsulamiento**: Se utilizan **propiedades privadas** (`#propiedad`) para proteger los datos internos de las clases, evitando el acceso directo desde fuera.
+**Herencia**: Las clases `Libro` y `Revista` extienden la clase `Material`, heredando sus propiedades y métodos.
+**Polimorfismo**: El método `mostrarInfo()` se comporta de manera diferente según la clase a la que pertenezca el objeto, lo que permite un manejo flexible de los materiales.
+
+## Estructura del archivo
+
+El proyecto se encuentra en un único archivo, `app.js`, lo que facilita su lectura y ejecución.
+
+## Cómo ejecutarlo
+
+Puedes ejecutar este código de dos maneras:
+
+### Con Node.js
+
+Asegúrate de tener Node.js instalado en tu sistema. Luego, ejecuta el siguiente comando en tu terminal:
+
+```sh
+node app.js
